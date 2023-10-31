@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed;
-    
-    private void Move()
+    private Vector3 moveDirection;
+
+    private int speed = 10;
+
+    public void Jump()
+    {
+        //player can jump
+    }
+
+    public void Movement()
     {
         //moves the player
     }
